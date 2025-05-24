@@ -1,0 +1,21 @@
+.LandingPage{
+  display: flex;
+}
+
+.LeftSideBarPanel{
+  width: 25vw;
+}
+
+.MiddleChatPanel{
+  width: 100vw;
+}
+
+.RightAICopilotPanel{
+  width: auto;
+}
+
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Optional: helps with layout */
+}

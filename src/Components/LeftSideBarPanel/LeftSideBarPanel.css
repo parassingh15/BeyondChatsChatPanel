@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+/* Your Inbox Div */
+.LeftBarPanel{
+    border-radius: 5px 5px 0 0;
+    margin-right: 1px;
+
+}
+.leftPanelNav{
+    margin-bottom: 1px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    height: 47px;
+}
+
+.leftPanelNav>p{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Message Details Div */
+
+.leftPanelDetail{
+    background-color: white;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+.leftPanelOptions{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftPanelOptions>div{
+    display: flex;
+}
+
+/* message list  */
+
+.messages{
+    background-color: white;
+    border-radius: 0px 0px 0px 5px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 85.1vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+
+}
+
+.message{
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.messageList  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 2px;
+  }
+
+  .inboxMsgList:hover{
+    background-color: rgb(216, 216, 236);
+  }
+  
+  .messageText {
+    flex-grow: 1;
+    line-height: 1;
+  }
+  
+  .messageTime {
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #888;
+  }
+
+
+.downArrow{
+    width: 20px;
+    height: 20px;
+    margin-top: 13.5px;
+    cursor: pointer;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #e51818;
+    margin-top: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+{
+    "conversations": [
+      {
+        "id": 1,
+        "sender": "Luis",
+        "company": "Github",
+        "lastMessage": "Hey! I have a question...",
+        "timeAgo": "45m",
+        "unread": true
+      },
+      {
+        "id": 2,
+        "sender": "Ivan",
+        "company": "Nike",
+        "lastMessage": "Hi there, I have a question...",
+        "timeAgo": "30m",
+        "unread": true
+        
+      },
+      {
+        "id": 3,
+        "sender": "Lead from New York",
+        "company": "",
+        "lastMessage": "Good morning, let me...",
+        "timeAgo": "40m",
+        "unread": false
+      },
+      {
+        "id": 4,
+        "sender": "Booking API problems",
+        "lastMessage": "Bug report",
+        "company": "",
+        "timeAgo": "45m",
+        "unread": false
+      },
+      {
+        "id": 5,
+        "sender": "Miracle",
+        "company": "Exemplary Bank",
+        "lastMessage": "Hey there, I'm here to...",
+        "timeAgo": "45m",
+        "unread": false
+      }
+    ]
+  }
+  
